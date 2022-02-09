@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/custom_toast"
+    android:paddingHorizontal="10dp"
+    android:background="@color/myBackgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/thankyou"
+
+        android:layout_marginRight="10dp"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtThankYou"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"></TextView>
+
+
+</LinearLayout>
